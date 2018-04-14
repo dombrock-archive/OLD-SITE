@@ -69,14 +69,14 @@ http://example.com/path/to/some/file.html --OK!
 /path/ --PROBABLY NOT OK!
 /path/to/some/file.html --PROBABLY NOT OK!
 </code></pre>
-<p><strong>TIP</strong>: <em>You can set a custom root URL in “user/config/config.py”. This will allow you to use the special syntax <code>https://matdombrock.github.io/</code> in your shortcodes like this:</em></p>
+<p><strong>TIP</strong>: <em>You can set a custom root URL in “user/config/config.py”. This will allow you to use the special syntax <code>http://127.0.0.1:8887/</code> in your shortcodes like this:</em></p>
 <pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"navigation"</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://matdombrock.github.io/index.html"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://matdombrock.github.io/projects/test.html"</span>&gt;</span>Test<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"http://127.0.0.1:8887/index.html"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"http://127.0.0.1:8887/projects/test.html"</span>&gt;</span>Test<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
 </code></pre>
 <p>or:</p>
-<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"stylesheet"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://matdombrock.github.io/styles.css"</span>&gt;</span>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"stylesheet"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"http://127.0.0.1:8887/styles.css"</span>&gt;</span>
 </code></pre>
 <p>Once you have created the shortcode file and saved it as something like <code>NewShortCodeName.html</code> inside of the “user/shortcodes” directory, you need to make sure the software knows what it is by adding it to “user/config/shortcodes.py”. This  file contains a dictionary of every shortcode’s name and its relative location inside of the “shortcodes” directory.</p>
 <p>You can add your new shortcode anywhere after the line containing:</p>

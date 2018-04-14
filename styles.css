@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
 body{
 	background:#2D2D2D;
+	background-image:url("http://mzero.space/main/wp-content/uploads/2018/02/MTx.jpg");
 	background-attachment: fixed;
 	color:white;
 	font-family: 'Do Hyeon', sans-serif;
@@ -37,7 +38,23 @@ pre{
 .site-title-u{
 	color:orange;
 }
-.wrap{
+.banner{
+	height:33vh;
+}
+.banner div{
+	margin: auto;
+    width: 50%;
+    text-align:center;
+    position:relative;
+    top:14vh;
+    font-size:5vh;
+}
+.outer-wrap{
+	background:#2D2D2D;
+	psotion:absolute;
+	min-height:66vh;
+}
+.inner-wrap{
 	max-width: 1080px;
 	margin:0 auto;
 	background:rgba(110,110,110,0.3);
