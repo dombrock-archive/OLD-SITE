@@ -112,6 +112,7 @@ pre{
 	.navigation a{
 		border-bottom-right-radius:0;
 		border-bottom-left-radius:0;
+		line-height:2.5em;
 	}
 	.wrap{
 		padding:0.1em;
