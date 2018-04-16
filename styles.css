@@ -1,27 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Gugi');
-@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 body{
-	background:#2D2D2D;
-	background-image:url("http://mzero.space/main/wp-content/uploads/2018/02/MTx.jpg");
+	background:#FCF8E2;
+	background-image:url("file:///home/mathieu/mySoftware/lab/x2y/user/output//img/nebula.jpg");
 	background-attachment: fixed;
-	color:white;
-	font-family: 'Do Hyeon', sans-serif;
+	background-size: cover;
+	color:#ECEAD4;
+	font-family: 'IBM Plex Mono', monospace;
 
 	margin:0 auto;
 }
 a, a:visited{
-	color:darkorange;
+	color:#C5551C;
 	text-decoration: none;
+	background:#0F2D39;
 }
 img{
 	max-width:100%;
 }
 pre{
 	background:#333;
-	padding:0.5em;]
+	padding:0.5em;
 }
 .title-bar{
-	background: black;
+	background: #0F2D39;
 	margin:0 auto;
 	padding:0.5em;
 }
@@ -39,39 +41,47 @@ pre{
 	color:orange;
 }
 .banner{
-	height:33vh;
+	height:25vh;
 }
 .banner div{
 	margin: auto;
     width: 50%;
     text-align:center;
     position:relative;
-    top:14vh;
+    #top:6vh;
     font-size:5vh;
 }
+.banner img{
+	height:25vh;
+}
+.left{
+	float:left;
+}
 .outer-wrap{
-	background:#2D2D2D;
+	background:#0F2D39;
 	psotion:absolute;
-	min-height:66vh;
+	min-height:75vh;
 }
 .inner-wrap{
 	max-width: 1080px;
 	margin:0 auto;
-	background:rgba(110,110,110,0.3);
+	background:#173744;
 	padding:1.5em;
 }
 .title{
 	color:orange;
 	margin:0 auto;
 	font-size:3em;
-	background:#333;
-	background-image:url("img/Nebula-dark.jpg");
+
 	background-attachment: fixed;
-	line-height:0.3em;
 	margin-bottom:0.5em;
 }
 .card{
+	clear:left;
 	margin:0 auto;
+	padding:1em;
+}
+.card img{
 	padding:1em;
 }
 .navigation{
@@ -79,11 +89,14 @@ pre{
 	float:right;
 }
 .navigation a{
-	background:#333;
-	color:White;
+	background:#0F2D39;
+	color:#ECEAD4;
 	padding:0.5em;
 	border-bottom-right-radius:0.5em;
 	border-bottom-left-radius:0.5em;
+}
+.navigation a:hover{
+	background:#5A6C74;
 }
 .readme-embed{
 	width:100%;
